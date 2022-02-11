@@ -1,0 +1,393 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.pfanne {
+    background-image: url("img/bgr1.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: 100% 95%;
+    position: relative;
+}
+
+.sakura-ramen {
+    color: white;
+    margin-top: -25%;
+    font-family: 'Raleway bold', sans-serif;
+    font-size: 65px;
+    position: relative;
+    top: 50px;
+    margin-bottom: 25px;
+}
+
+.best-ramen {
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    margin-top: -4%;
+    padding: 0;
+    font-family: 'Raleway regular', sans-serif;
+    font-size: 35px;
+}
+
+.header {
+    position: absolute;
+    width: 80vw;
+    top: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo>img {
+    width: 75px;
+    height: auto;
+}
+
+.nav {
+    position: relative;
+    font-family: 'Raleway bold', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 45vw;
+    align-items: center;
+}
+
+.nav a {
+    color: rgba( 250, 250, 250);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway bold', sans-serif;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.nav-menu {
+    position: relative;
+}
+
+.nav-location {
+    position: relative;
+}
+
+.nav-about {
+    position: relative;
+}
+
+.nav-phone {
+    position: relative;
+    background-color: red;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+.nav-phone>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-phone>a>img {
+    border-radius: 3px;
+    height: 25px;
+    width: auto;
+    padding-right: 10px;
+}
+
+.order {
+    padding-top: 0;
+    padding-bottom: 100px;
+    background-color: rgba( 250, 250, 250);
+}
+
+.howTo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.howTo>h2 {
+    font-size: 50px;
+    color: rgb(140, 28, 41);
+    font-weight: bold;
+    font-family: "economica";
+    margin-block-start: 0;
+    margin-top: 20px;
+}
+
+.order-img-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.bowlText {
+    font-family: "economica";
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.brothText {
+    font-family: "economica";
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.eggsText {
+    font-family: "economica";
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.menuPage {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    padding-bottom: 50px;
+    background-position: left;
+}
+
+.menuText-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.menuText>h2 {
+    font-family: "economica";
+    font-weight: bold;
+    font-size: 60px;
+    color: rgb(140, 28, 41);
+}
+
+.col-2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menuTableCon>table {
+    color: grey;
+    font-family: "raleway";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#tableR1 {
+    padding-left: 10%;
+}
+
+#tableR3 {
+    padding-left: 10%;
+}
+
+th {
+    padding-right: 50%;
+    padding-bottom: 35px;
+    font-family: "economica";
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+}
+
+td {
+    padding: 0 250px 30px 0;
+}
+
+.menuTable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kontakt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    background-color: rgba( 250, 250, 250);
+}
+
+.kontakt-adresse {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.kontakt-text {
+    font-size: 50px;
+    font-family: "economica";
+    color: rgb(140, 28, 41);
+    font-weight: bold;
+}
+
+.adresse {
+    font-family: "raleway";
+    text-align: center;
+    font-size: 20px;
+}
+
+.adresse-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.kontakt-img>img {
+    width: 25px;
+    height: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.full-logo-container {
+    margin-left: 5px;
+}
+
+.icons-container {
+    display: flex;
+    width: 40vw;
+    justify-content: space-evenly;
+}
+
+.hide-fullscreen {
+    display: none;
+}
+
+@media(max-width:1000px) {
+    .pfanne {
+        background-position: 50% 95%;
+    }
+    .header {
+        top: 45px;
+    }
+    .nav {
+        width: 38vw;
+    }
+    .sakura-ramen {
+        font-size: 32px;
+        text-align: center;
+        margin-top: -55%;
+    }
+
+.menuText>h2{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+
+    .hide-mobile {
+        display: none;
+    }
+    .best-ramen {
+        font-size: 21px;
+    }
+    .order {
+        padding-bottom: 64px;
+    }
+    .order-img-container {
+        flex-direction: column;
+    }
+    .brothAndText {
+        margin-top: 42px;
+        margin-bottom: 42px;
+    }
+    .col-2 {
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 2px dotted black;
+    }
+    table td {
+        padding: 25px;
+    }
+    .reverse-mobile {
+        flex-direction: column-reverse;
+    }
+    .col-2 img {
+        width: 300px;
+        height: auto;
+    }
+    .hide-fullscreen {
+        display: unset;
+        width: 100vw;
+        background-color: black;
+        height: 2px;
+    }
+    table {
+        margin-bottom: 20px;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .kontakt-adresse {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .full-logo-container {
+        margin-bottom: 10px;
+        
+    }
+    .full-logo-container>img{
+        width: 75vw;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+
+    .icons-container{
+       justify-content: space-around;
+       width: 85vw;
+       margin-top: 15px;
+    }
+    .howTo>h2{
+        margin-bottom: 20px;
+    }
+
+
+    .menuText-container{
+        margin-bottom: 20px;
+    }
+
+    .menuImgCon>img{
+        width: 260px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+
+    #noBorder-mobile{
+        border: none !important;
+    }
+}

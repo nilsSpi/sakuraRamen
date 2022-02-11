@@ -1,0 +1,33 @@
+
+
+
+zu seite 1:
+das bild wirkt verzerrt, aber height:100vh scheint der sinnvollste befhel
+im mock up ist seite1 quadratisch aber mit 100vh ist es das nicht mehr, 
+wie kann man dafür kompensieren?
+
+
+
+
+Wie kann ich die platzierung von Sakura RAmen verstehen,
+
+.sakura-ramen{
+    color: white;
+    margin-top: -15%;   !!! was mache ich hiermit genau,wieso kann ich es so einrücken? das selbe bei div(best ramen)
+    font-family: 'Raleway bold', sans-serif;
+    font-size: 75px;
+    position: relative;
+    top: 50px;
+   
+
+  
+}
+
+
+
+
+
+wieso kann ich bei div(Sakura ramen) padding/margin-bot 0 hinzufügen ohne 
+das sich der abstand zu div(best ramen) nicht ändert
+
+
